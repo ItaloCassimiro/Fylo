@@ -1,0 +1,139 @@
+body {
+    margin: 0%;
+}
+header {
+    display: flex;
+    padding: 55px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    align-items: center;
+}
+.logo img {
+    width: 170px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(12, 4, 4);
+}
+
+.banner_options {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+}
+
+.banner_options img{
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+p {
+    font-size: 18px;
+    font-family: arial;
+}
+.email {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+.button {
+    margin-top: 10px;
+}
+button {
+    height: 30px;
+    width: 150px;
+    background-color: rgba(0, 0, 255, 0.815);
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+}
+
+.container1 {
+    margin-top: 200px;
+}
+
+.quite {
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+}
+
+.quite img {
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+
+.containerfo {
+    background-color: hsl(238, 22%, 44%);
+    margin: 0;
+    padding: 55px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 90%;
+}
+
+.pote {
+    height: 30px;
+    width: 400px;
+    border-radius: 6px;
+} 
+
+.idont {
+    padding-top: 20px;
+}
+
+.footer_area2 {
+    margin: 0;
+    padding: 55px;
+    min-width: 90%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(243, 87%, 12%);
+}
+.logof img {
+    width: 170px;
+}
+.final {
+    padding-bottom: 35px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
